@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+
+        <item name="android:colorPrimary">#2b2</item>
+        <item name="android:colorPrimaryDark">#080</item>
+        <item name="android:colorAccent">#8f8</item>
+        <item name="android:textColorPrimary">#004</item>
+        <item name="android:textColorSecondary">#448</item>
+
+    </style>
+
+</resources>

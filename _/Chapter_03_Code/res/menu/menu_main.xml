@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/menu_date"
+        android:icon="@drawable/time"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Date and Time" />
+    <item
+        android:id="@+id/menu_location"
+        android:icon="@drawable/location"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Location" />
+
+    <item
+        android:id="@+id/menu_sleep"
+        android:icon="@drawable/sleep"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Sleep" />
+</menu>

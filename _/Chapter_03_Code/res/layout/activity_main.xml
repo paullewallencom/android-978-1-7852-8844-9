@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?android:attr/actionBarSize" />
+
+    <Button
+        android:id="@+id/button_analog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_analog_text" />
+
+    <Button
+        android:id="@+id/button_digital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_digital_text" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
